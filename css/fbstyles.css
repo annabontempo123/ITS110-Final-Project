@@ -1,0 +1,262 @@
+/* Style for body specifies a background color */
+body {
+	background-color: #79cdec;
+}
+
+/* Styles for Mobile Layout */
+
+section {
+	padding: 1%;
+	text-align: center;
+}
+article {
+	border-top: solid 0.2em #FF6600;
+	padding: 2%;
+	margin: 0.55;
+	text-align: left;
+}
+aside {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FF6600;
+	font-size: 1.25em;
+	margin: 1em;
+	padding: 1em;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 1.5em;
+	margin-top: 0.2em;
+	background-color: #e7d5e6;
+	border-radius: 0.5em;
+	text-align: center;
+	padding-bottom: .2em;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	display: inline;
+}
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	float: center;
+}
+/*Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #d7b7d5;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: .5em;
+	padding: 0.2em;
+	display: inline;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #000000; 
+	border-bottom: solid 0.2em #000000;
+	overflow: auto;
+	background-color: #d7b7d5;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2em;
+}
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+/* Style displays for div p */
+#p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+.mission
+{
+	font-size: 14pt;
+	border-style: solid;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #e7d5e6;
+	border-color: #a59c9c;
+	box-shadow: 6px 6px 6px #302c2c;
+}
+.faq
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 14pt;
+	border-style: solid;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #e7d5e6;
+	border-color: #a59c9c;
+	box-shadow: 6px 6px 6px #302c2c;
+}
+.adopt
+{
+	font-size: 14pt;
+	border-style: solid;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #e7d5e6;
+	border-color: #a59c9c;
+	box-shadow: 6px 6px 6px #302c2c;
+}
+.links
+{
+	text-decoration-color: #89bcfb;
+	text-align: center;
+	font-size: 14pt;
+	text-align: center;
+	font-size: 14pt;
+	border-style: solid;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #e7d5e6;
+	border-color: #a59c9c;
+	box-shadow: 6px 6px 6px #302c2c;
+}
+.imgs
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 80%;
+}
+
+/* Desktop viewport */
+@media (min-width: 769px) {
+	table {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+	}
+	#container {
+		width: 80%;
+	}
+	nav {
+		margin-top: -5em;
+	}
+	nav ul {
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+	nav li {
+		background-color: #d7b7d5;
+		border-radius: 25;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+	}
+	nav li a {
+		color: #FFFFFF;
+		display: inline-block;
+		padding: 0.7em;
+		font-size: 1.25em;
+	}
+	nav li a:link {
+		color: #FFFFFF
+	}
+	nav li a:hover {
+		color: #4C1F00
+		font-style: italic;
+	}
+	main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+	}
+	section {
+		float: left;
+		width: 60%;
+	}
+	aside {
+		float: right;
+		width: 25%;
+		background-color: #FF6600;
+		color: #FFFFFF
+	}
+	.mission
+	{
+		margin-left: 10%;
+		font-size: 14pt;
+		border-style: solid;
+		border-radius: 1em;
+		padding: 1em;
+		background-color: #e7d5e6;
+		border-color: #a59c9c;
+		box-shadow: 6px 6px 6px #302c2c;
+		float: left;
+		width: 40%;
+	}
+	.faq
+	{
+		margin-top: 400px;
+		text-align: center;
+		font-size: 14pt;
+		border-style: solid;
+		border-radius: 1em;
+		padding: 1em;
+		background-color: #e7d5e6;
+		border-color: #a59c9c;
+		box-shadow: 6px 6px 6px #302c2c;
+	}
+	.aboutPicture
+	{
+		margin-right: 10%;
+		width: 30%;
+		height: 30%;
+		float: right;
+	}
+	.adoptPic
+	{
+		width: 50%;
+		height: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.imgs
+	{
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 20%;
+	}
+}
